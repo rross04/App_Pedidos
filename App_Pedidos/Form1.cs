@@ -35,7 +35,12 @@ namespace App_Pedidos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var db = new Connection();
+            //var db = new Connection(); <- esta linea no es necesaria si no se usa la variable db
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
